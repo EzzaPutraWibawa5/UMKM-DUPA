@@ -36,7 +36,9 @@ res.json({ message: "Stok berhasil diperbarui" });
 });
 
 // ⚠️ Railway pakai PORT dari ENV
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-console.log(`✅ Product Service running on port ${PORT}`);
+console.log(`Service running on port ${PORT}`);
 });
+
+
